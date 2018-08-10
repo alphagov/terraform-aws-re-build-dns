@@ -25,9 +25,3 @@ variable "top_level_domain_name" {
   type        = "string"
   default     = "build.gds-reliability.engineering"
 }
-
-variable "resource_prefix" {
-  description = "Prefix for resources created in this module"
-  type        = "string"
-  default     = ""
-}
