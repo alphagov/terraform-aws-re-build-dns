@@ -1,5 +1,5 @@
 terraform {
-  required_version = "~> 0.11.8"
+  required_version = "~> 0.11.7"
 }
 
 resource "aws_route53_zone" "primary_zone" {
